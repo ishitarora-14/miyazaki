@@ -1,0 +1,200 @@
+body {
+    margin: 0; /* remove default margin */
+    scrollbar-width: none; /* Also needed to disable scrollbar Firefox */
+    -ms-overflow-style: none;  /* Disable scrollbar IE 10+ */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-size: cover;
+    background-color: #1e1e2a;
+}
+
+/* container */
+.main {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+/* quote box */
+.qbox{
+  padding: 10px;
+  margin: 10px 0;
+}
+
+h1 {
+    font-size: 80px;
+    padding-bottom: -30px;
+}
+
+/* text quote */
+.quote {
+  padding-top: 100px;
+    font-size: 45px;
+    line-height: 1.5;
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* miyazaki image */
+.HM {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    align-items: start;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+/* scroll for more text */
+.scroll {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* over scroll section */
+.overlay {
+    z-index: 1;
+    background: #1e1e2a;
+    margin-top: 100vh;
+  }
+
+  /* left side circle with year */
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: #2ecc71;
+    border-radius: 100px;
+    position: relative;
+    margin: 100px auto 0 auto;
+  }
+  
+  /* year text */
+  h5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #fff;
+  }
+  
+  /* line */
+  .vertical-line {
+    width: 2px;
+    height: 600px;
+    background: #2ecc71;
+    margin: 20px auto 0 auto;
+  }
+
+  /* information in center column */
+  .year_info {
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 200px;
+  }
+
+  /* images in right column */
+  /* individual images */
+  .year_image1 {
+    width: 60%;
+    height: auto;
+    padding-top: 100px;
+  }
+
+  .year_image2 {
+    width: 120%;
+    height: auto;
+    padding-top: 200px;
+  }
+
+  .year_image3 {
+    width: 100%;
+    height: auto;
+    padding-top: 300px;
+  }
+
+  .year_image4 {
+      width: 100%;
+      height: auto;
+      padding-top: 300px;
+  }
+
+  .year_image5 {
+      width: 100%;
+      height: auto;
+      padding-top: 300px;
+  }
+
+  .year_image6 {
+    width: 90%;
+    height: auto;
+    padding-top: 100px;
+    padding-left: 80px;
+  }
+
+  .year_image7 {
+      width: 75%;
+      height: auto;
+      padding-top: 100px;
+      padding-left: 100px;
+  }
+
+  .year_image8 {
+      width: 100%;
+      height: auto;
+      padding-top: 100px;
+  }
+
+  .year_image9 {
+      width: 100%;
+      height: auto;
+      padding-top: 200px;
+  }
+
+/* scroll to top button  sticky on the left*/
+.scroll_up {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    padding-top: 40px;
+    padding-left: 40px;
+    top: 650px;
+}
+
+/* menu modal */
+.main_modal {
+  background-color: antiquewhite;
+}
+
+.menu_content {
+  padding-left: 100px;
+  padding-top: 100px;
+  align-items: center;
+}
+.menu_content a{
+  color: #1e1e2a;
+  text-decoration: none;
+}
+
+.menu_content a:hover{
+  color: #1e1e2a;
+  text-decoration: underline;
+}
+
+.navigation {
+  background-color: antiquewhite;
+}

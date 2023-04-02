@@ -1,5 +1,4 @@
-/* SPECIFIC MOVIE PAGES */
-
+/* importing external fonts */
 @import url("https://fonts.googleapis.com/css2?family=Amaranth&family=Cutive&display=swap");
 
 body {
@@ -8,33 +7,73 @@ body {
     scrollbar-width: none; /* Also needed to disable scrollbar Firefox */
     -ms-overflow-style: none;  /* Disable scrollbar IE 10+ */
     overflow-y: scroll;
+    overflow-x: hidden;
     background-size: cover;
     background-color: #1e1e2a;
 }
 
-/* .intro {
-    z-index: -1;
-    position: sticky; top: 10px;
-  } */
+/* first gif and text */
+.intro{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+.image {
+height: 100%;
+width:100%;
+max-width:100vw;
+position: relative;
+overflow: hidden;
+}
+
+.bg_image { 
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+} 
+
+.text {
+position: relative;
+display: flex;
+justify-content:flex-end;
+align-items: left;
+flex-direction: column;
+height: 100%;
+text-align: center;
+width: 50%;
+padding-bottom: 30px;
+margin: auto;
+}
+
+.text h2 {
+text-align: center;
+color:aliceblue;
+text-transform: uppercase;
+font-weight: 400;
+margin: 0 0 1rem;
+padding: 0;
+line-height: 1;
+font-size: 20px;
+font-weight:700;
+@media (max-width: 400px) {
+  font-size: 22px;
+}
+@media (min-width: 1200px) {
+  font-size: 22px;
+}
+}
   
-  /* .bg_image {
-    height: 150%;
-    width:150%;
-    max-width:100vw;
-    max-height: 100vh;
-    z-index: -2;
-  }
-  
-  .text {
-    position: relative;
-    padding: 1rem;
-    font-size: 2rem;
-    font-weight: 300;
-    color: white;
-    backdrop-filter: blur(14px) brightness(80%);
-    z-index: -1;
-  } */
-  
+/* all information of movie */
   .content {
     position: relative;
     top: 8px;
@@ -45,20 +84,26 @@ body {
     color: white;
     z-index: 0;
   }
-  
-  .head {
-    position: relative;
-    /* top: 8px; */
-    left: 16px;
-    /* padding: 1rem; */
-    padding-top: 80px;
-    padding-bottom: 20px;
-    font-size: 20px;
-    font-weight: 300;
-    color: white;
-    z-index: 0;
+
+  .overlay {
+    z-index: 1;
+    /* background: #1e1e2a; */
+    background: #E2EDAE;
+/* 
+    background: #8cb0bd; */
+    margin-top: 100vh;
   }
-  
+
+  .movie_name {
+    /* color:blanchedalmond; */
+    color: black;
+    font-family: Cutive;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  /* basic info about movie */
   .info {
     position: relative;
     bottom: 8px;
@@ -66,114 +111,89 @@ body {
     padding: 1rem;
     font-size: 20px;
     font-weight: 300;
-    color: white;
+    color: black;
     z-index: 0;
   }
   
+  /* headings of each section */
+  .head {
+    position: relative;
+    /* left: 16px; */
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    z-index: 0;
+  }
+
   
+  /* character images */
   .chars {
     height: 150px;
   }
   
+  /* character names */
   .char_name {
     font-size: 20px;
     text-align: center;
     padding-top: 20px;
-    color: white;
+    color: black;
   }
   
+  /* plot */
   .story {
     font-size: 20px;
     text-align: left;
     padding-top: 20px;
-    color: white;
-  }
-  
-  .overlay {
-    z-index: 1;
-    background: #1e1e2a;
-    margin-top: 100vh;
-  }
-  
-  .movie_name {
-    color:blanchedalmond;
-    font-family: Cutive;
-    font-size: 20px;
-    text-align: center;
-    padding-top: 100px;
-  }
+    color: black;
+  }  
 
-
-  .intro{
-    width:100%;
-    height:100%;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    position: fixed;
-    top: 0;
-    z-index: -1;
-}
-  
- .image {
-  height: 100%;
-  width:100%;
-  max-width:100vw;
-  position: relative;
-  overflow: hidden;
-}
-
-.bg_image { 
-  position: absolute;
-  top: 0;
-  left: 0;
+.trailer {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-} 
-
-.text {
-  position: relative;
-  display: flex;
-  justify-content:flex-end;
-  align-items: left;
-  flex-direction: column;
-  height: 100%;
-  text-align: center;
-  width: 50%;
-  padding-bottom: 30px;
-  margin: auto;
+  height: auto;
 }
 
-.text h2 {
-  text-align: center;
-  color:aliceblue;
-  text-transform: uppercase;
-  font-weight: 400;
-  margin: 0 0 1rem;
-  padding: 0;
-  line-height: 1;
-  font-size: 20px;
-  font-weight:700;
-  @media (max-width: 400px) {
-    font-size: 22px;
-  }
-  @media (min-width: 1200px) {
-    font-size: 22px;
-  }
-}  
+/* gallery row space */
+.space {
+  padding-bottom : 25px;
+}
 
+/* see more section */
 .move_next {
   height: 200px;
   width: auto;
 }
 
+.move_next:hover{
+  cursor: url('../_assests/cursor.png'), auto;
+}
+
+/* big container */
 .base {
   padding-bottom: 50px;
 }
 
-.trailer {
-  width: 100%;
-  height: auto;
+/* modal menu */
+.main_modal {
+  background-color: antiquewhite;
+}
+
+.menu_content {
+  padding-left: 100px;
+  padding-top: 100px;
+  align-items: center;
+}
+.menu_content a{
+  color: #1e1e2a;
+  text-decoration: none;
+}
+
+.menu_content a:hover{
+  color: #1e1e2a;
+  text-decoration: underline;
+}
+
+.navigation {
+  background-color: antiquewhite;
 }

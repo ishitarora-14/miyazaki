@@ -1,121 +1,111 @@
-<!-- <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hayao Miyazaki</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
-
-  </head>
-  <body> -->
-
-    <!-- NAVIGATION BAR -->
-    <!-- <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <h5 class="text-white h4">Collapsed content</h5>
-          <span class="text-body-secondary">Toggleable via the navbar brand.</span>
-        </div>
-      </div>
-
-    <nav class="navbar sticky-top nav-pills nav-fill" style="background-color: #e3f2fd;">
-        <div class="container-fluid">
-            <a class="nav-link" href="index.html">宮崎 駿</a>
-            <a class="navbar-brand mb-0 h1" href="home.html">Hayao Miyazaki</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-    </nav> -->
-
-    <!-- PONYO GIF -->
-    <!-- <div class="ponyo_image">
-        <img src="_assests/ponyo_main.gif" class="img-fluid ponyo_main" alt="...">
-        <div class="scroll">
-            <p>SCROLL FOR MORE</p>
-            <img src="_assests/cursor.png">
-        </div>
-    </div> -->
-    <!-- <div class="ponyo_image">
-        <div class="ponyo bg-image" style="background-image: url('_assests/ponyo_main.gif'); height: 100vh;">
-            <div class="scroll">
-                <span class="d-flex align-content-end">SCROLL FOR MORE</span>
-                <img src="_assests/scroll_arrow.png">
-            </div>
-        </div>
-    </div>
-
-  </body>
-</html> -->
-
-
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kiki's Delivery Service</title>
+    <title>Ponyo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="movie_style.css" />
     <script src="../script.js"></script>
-
   </head>
+
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 
-    <div class="collapse" id="navbarToggleExternalContent">
-      <div class="bg-dark p-4">
-        <h5 class="text-white h4">Collapsed content</h5>
-        <span class="text-body-secondary">Toggleable via the navbar brand.</span>
-      </div>
-    </div>
-
-    <nav class="navbar fixed-top bg-body-tertiary">
+    <!-- Navigation bar fixed at top-->
+    <nav class="navbar fixed-top navigation">
       <div class="container-fluid">
         <a class="nav-link" href="../index.html">宮崎 駿</a>
-        <a class="navbar-brand active" href="../home.html">Hayao Miyazaki</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand active" href="../work.html">Hayao Miyazaki</a>
+    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      menu
     </button>
       </div>
     </nav>
+
+    <!-- Modal Menu full page-->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content navigation">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Hayao Miyazaki</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body main_modal">
+            <div class="container menu_content">
+              <div class="row">
+                <div class="col">
+                  <h2>menu</h2>
+                  <a href="../about.html">
+                    <h1>About</h1>
+                  </a>
+                  <a href="../work.html">
+                    <h1>Works</h1>
+                  </a>
+                </div>
+                <div class="col">
+                  <h2>visit</h2>
+                  <h1>Events</h1>
+                  <h1>Exhibitions</h1>
+                </div>
+                <div class="col">
+                  <h2>Contact</h2>
+                  <h1>email:hm@studioghiblis.com</h1>
+                  <h1>number:0000000000</h1>
+                </div>
+                <div class="row">
+                  <div class="col-7 offset-md-7">
+                    <img src="../_assests/t.gif">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     
+    <!-- gif and text -->
     <div class="intro">
       <div class="image">
         <img class="bg_image" src="../_assests/ponyo_main.gif">
         <div class="text">
           <h2 class="scroll">SCROLL FOR MORE <p>v</p></h2>
-          <!-- <img class="image" src="../_assests/scroll_arrow.png">  -->
         </div>
       </div>
     </div>
 
+    <!-- main content -->
     <div class="overlay">
+      <!-- main container -->
       <div class="content container d-flex">
         <div class="row">
+          <!-- movie title -->
           <div class="movie_name">
-            <h1>Ponyo</h1>
+            <h1>Ponyo on the Cliff</h1>
           </div>
-  
-  
           <div class="category col-3 d-flex flex-column">
           </div>
-  
+          <!-- gif -->
           <div class="gifs col-4 d-flex flex-column">
             <img src="../_assests/ponyo_info.gif">
           </div>
+          <!-- basic info -->
             <div class="info col-4">
-              <p>Released: 1988</p>
-              <p>Directed by: Hayao Miyazaki</p>
+              <p>Release date:19 September 2008</p>
+              <p>Director: Hayao Miyazaki</p>
+              <p>Producer: Toshio Suzuki</p>
               <p>Written by: Hayao Miyazaki</p>
-              <p>Starring: Minami Takayama, Rei Sakuma, Minami Takayama, Haruko Kato, Kappei Yamaguchi, and 	Rei Sakuma</p>
-              <p>Runtime: 103 minutes</p>
-              <p>Studio: Studio Ghibli</p>
+              <p>Starring: 	Yuria Nara, Hiroki Doi, Yūki Amami, Kazushige Nagashima, 	Tomoko Yamaguchi</p>
+              <p>Runtime: 101 minutes</p>
+
             </div>
         </div>
-        </div>
-        
+      </div>
+      <!-- end of main container -->
+
+         <!-- 4 main characters with image and name-->
+         <!-- start of characters container -->
         <div class="container">
         <div class="characters">
           <div class="head">
@@ -124,149 +114,175 @@
           <div class="container text-center">
             <div class="row align-items-start">
               <div class="col">
-                <img class="chars" src="../_assests/totoro_char.png">
-                <p class="char_name">Totoro</p>
+                <img class="chars" src="../_assests/ponyo_char.png">
+                <p class="char_name">Ponyo</p>
               </div>
               <div class="col">
-                <img class="chars" src="../_assests/mein_char.png">
-                <p class="char_name">Mei</p>
+                <img class="chars" src="../_assests/sosuke_char.png">
+                <p class="char_name">Sosuke</p>
               </div>
               <div class="col">
-                <img class="chars" src="../_assests/satsuki_char.png">
-                <p class="char_name">Satsuki</p>
+                <img class="chars" src="../_assests/fujimoto_char.png">
+                <p class="char_name">Fujimoto</p>
               </div>
               <div class="col">
-                <img class="chars" src="../_assests/catbus_char.png">
-                <p class="char_name">Catbus</p>
+                <img class="chars" src="../_assests/lisa_char.png">
+                <p class="char_name">Lisa</p>
             </div>
           </div>
         </div>
-  
-        <div class="plot">
-          <div class="head">
-            <h1>PLOT</h1>
-          </div>
-          <div class="story col-md-4 offset-md-4">
-            <p>Satsuki and Mei move to the countryside with their father to be closer to their mother, who is recovering from an illness at a nearby hospital. The sisters explore their new surroundings and discover that the nearby forest is home to a variety of magical creatures.
+        <!-- end of characters container -->
 
-              One day, Mei follows two small creatures into the forest and discovers a giant, friendly creature named Totoro. Mei and Satsuki become friends with Totoro and his companions, and they embark on a series of whimsical adventures together, including flying on a giant cat bus.
-              
-              As the girls adjust to their new home and cope with the worry of their mother's illness, they find solace in their friendship with Totoro and the other forest spirits. Eventually, their mother recovers and the family celebrates with a joyful reunion.</p>
-          </div>  
+        <!-- plot -->
+        <!-- start of plot container -->
+        <div class="container">
+          <div class="plot row">
+            <div class="head">
+              <h1>PLOT</h1>
+            </div>
+            <div class="story col offset-md-2">
+              <p>
+                The story begins with a powerful storm hitting a small fishing town, and during the storm, a young boy named Sosuke finds a goldfish trapped in a jar. Sosuke frees the goldfish and names her Ponyo. As Ponyo and Sosuke spend time together, Ponyo begins to develop feelings for Sosuke and wishes to become human so she can be with him.
+
+Ponyo's father, Fujimoto, is a powerful wizard who lives in the ocean and is determined to keep Ponyo from becoming human. However, Ponyo is determined to become a human and unleashes her magical powers, causing a great imbalance in the ocean's ecosystem and putting the entire town in danger.
+
+Sosuke and Ponyo embark on a dangerous journey to restore balance to the ocean and save the town. Along the way, they encounter various obstacles and magical creatures, including a giant wave and a mysterious sea goddess.
+
+In the end, Sosuke and Ponyo's love for each other prevails, and Ponyo becomes human. The town is saved, and the ocean's balance is restored. The movie ends with Sosuke and Ponyo living happily together as humans.
+              </p>
+            </div>  
+          </div>
         </div>
+        <!-- end of plot container -->
      
       <!-- poster -->
-      <div class="poster">
-        <div class="head">
-          <h1>POSTER</h1>
+      <!-- start of poster container -->
+      <div class="container">
+        <div class="poster row">
+          <div class="head col">
+            <h1>POSTER</h1>
+          </div>
+            <div class="row">
+              <div class="col">
+                <img class="poster" src="../_assests/ponyo_poster.jpeg">
+              </div>
+            </div>
         </div>
+      </div>
+      <!-- end of poster container -->
+  
+        <!-- gallery 3 rows 4 columns of movie stills -->
+        <!-- https://www.ghibli.jp/works/ponyo/ -->
+        <!-- start of main gallery container -->
+        <div class="grid container">
+          <div class="row">
+            <div class="head">
+                <h1>GALLERY</h1> 
+            </div>
+            <!-- start of gallery image container -->
+            <div class="container">
+              <div class="row space">
+                <div class="col">
+                  <img class="gallery_img" src="../_assests/ponyo_gallery_1.png">
+                </div>
+                <div class="col">
+                  <img class="gallery_img" src="../_assests/ponyo_gallery_2.png">
+                </div>
+                <div class="col">
+                  <img class="gallery_img" src="../_assests/ponyo_gallery_3.png">
+                </div>
+                <div class="col">
+                  <img class="gallery_img" src="../_assests/ponyo_gallery_4.png">
+                </div>
+              </div>
+              
+              <div class="row space">
+                <div class="col">
+                  <img class="gallery_img" src="../_assests/ponyo_gallery_5.png">
+                </div>
+                <div class="col">
+                  <img class="gallery_img" src="../_assests/ponyo_gallery_6.png">
+                </div>
+                <div class="col">
+                  <img class="gallery_img" src="../_assests/ponyo_gallery_7.png">
+                </div>
+                <div class="col">
+                  <img class="gallery_img" src="../_assests/ponyo_gallery_8.png">
+                </div>
+              </div>
+      
+              <div class="row space">
+                <div class="col">
+                  <img class="gallery_img" src="../_assests/ponyo_gallery_9.png">
+                </div>
+                <div class="col">
+                  <img class="gallery_img" src="../_assests/ponyo_gallery_10.png">
+                </div>
+                <div class="col">
+                  <img class="gallery_img" src="../_assests/ponyo_gallery_11.png">
+                </div>
+                <div class="col">
+                  <img class="gallery_img" src="../_assests/ponyo_gallery_12.png">
+                </div>
+          </div>
+          <!-- end of gallery image container -->
+        </div>
+        <!-- end of main gallery container -->
+
+         <!-- trailer video with controls -->
+        <!-- start of trailer container -->
         <div class="container">
-          <div class="row">
-            <div class="col">
-              <img class="poster" src="../_assests/totoro_poster.jpeg">
+          <div class="trailer row">
+            <div class="head">
+              <h1>TRAILER</h1>
+              <p>(press play to watch)</p>
             </div>
-            <div class="col">
-              <!-- <video class="trailer" autoplay muted loop>
-                <source src="../_assests/kiki_trailer.mp4" type="video/mp4">
-              </video> -->
-            </div>
+            <!-- start of trailer video container -->
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <video class="trailer" controls poster="../_assests/ponyo.jpeg">
+                    <source src="../_assests/ponyo_trailer.mp4" type="video/mp4">
+                  </video>
+                </div>
+              </div>
+            </div> 
+            <!-- end of trailer video container -->
           </div>
         </div>
-  
-        
+        <!-- end of main trailer container -->
       
-        <div class="head row">
-          <div class="col">
-            <h1>GALLERY</h1>
-          </div>  
-        </div>
-        <!-- <div class="container"> -->
-          <div class="row">
-            <div class="col">
-              <img class="gallery_img" src="../_assests/totoro_gallery_1.png">
+        <!-- see more section with 3 other movies -->
+        <!-- start of main more container -->
+        <div class="container">
+          <div class="next row">
+            <div class="head">
+              <h1>SEE MORE</h1>
             </div>
-            <div class="col">
-              <img class="gallery_img" src="../_assests/totoro_gallery_2.png">
-            </div>
-            <div class="col">
-              <img class="gallery_img" src="../_assests/totoro_gallery_3.png">
-            </div>
-            <div class="col">
-              <img class="gallery_img" src="../_assests/totoro_gallery_4.png">
-            </div>
-          </div>
-          
-          <div class="row">
-            <div class="col">
-              <img class="gallery_img" src="../_assests/totoro_gallery_5.png">
-            </div>
-            <div class="col">
-              <img class="gallery_img" src="../_assests/totoro_gallery_6.png">
-            </div>
-            <div class="col">
-              <img class="gallery_img" src="../_assests/totoro_gallery_7.png">
-            </div>
-            <div class="col">
-              <img class="gallery_img" src="../_assests/totoro_gallery_8.png">
-            </div>
-          </div>
-  
-          <div class="row">
-            <div class="col">
-              <img class="gallery_img" src="../_assests/totoro_gallery_9.png">
-            </div>
-            <div class="col">
-              <img class="gallery_img" src="../_assests/totoro_gallery_10.png">
-            </div>
-            <div class="col">
-              <img class="gallery_img" src="../_assests/totoro_gallery_11.png">
-            </div>
-            <div class="col">
-              <img class="gallery_img" src="../_assests/totoro_gallery_12.png">
-            </div>
-        </div>
-
-        <div class="trailer">
-          <div class="head">
-            <h1>TRAILER</h1>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <video class="trailer" autoplay muted loop>
-                  <source src="../_assests/totoro_trailer.mp4" type="video/mp4">
-                </video>
+            <!-- start of more movies container -->
+            <div class="container base">
+              <div class="row">
+                <div class="col">
+                  <a href="../movies/spirited_away.html">
+                    <img class="move_next" src="../_assests/chihiro_main.jpeg">
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="../movies/totoro.html">
+                    <img class="move_next" src="../_assests/totoro_main.jpeg">
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="../movies/kiki.html">
+                    <img class="move_next" src="../_assests/kiki_main.jpeg">
+                  </a>
+                </div>
               </div>
             </div>
-          </div> 
-        </div>
-      
-        <div class="next">
-          <div class="head">
-            <h1>SEE MORE</h1>
-          </div>
-          <div class="container base">
-            <div class="row">
-              <div class="col">
-                <a href="../movies/spirited_away.html">
-                  <img class="move_next" src="../_assests/chihiro_main.jpeg">
-                </a>
-              </div>
-              <div class="col">
-                <a href="../movies/ponyo.html">
-                  <img class="move_next" src="../_assests/ponyo_main.jpeg">
-                </a>
-              </div>
-              <div class="col">
-                <a href="../movies/kiki.html">
-                  <img class="move_next" src="../_assests/kiki_main.jpeg">
-                </a>
-              </div>
-            </div>
+            <!-- end of more movies container -->
           </div>
         </div>
-    </div>
+        <!-- end of main more container -->
    
-
   </body>
 </html>

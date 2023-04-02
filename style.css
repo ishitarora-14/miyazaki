@@ -11,11 +11,16 @@ body {
     background-color: #1e1e2a;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
   }
 
+  /* gallery image section */
   .gallery {
     max-height: 100vh;
     overflow: scroll;
@@ -26,19 +31,14 @@ body {
     padding-left: 100px;
   }
 
-  /* .gallery > div > img {
-    scroll-snap-align: center;
-  } */
-
+  /* for center "winner" image border highlight */
   .winner > img {
     border: 4px solid white;
     padding: 0;
   }
 
-  * {
-    box-sizing: border-box;
-}
-
+  /* landing page */
+  /* video format for full screen and text */
 .outer{
     width:100%;
     height:100%;
@@ -98,6 +98,7 @@ video {
   }
 }  
 
+/* video hover custom cursor for better affordance */
 .main_video:hover {
   cursor: url('_assests/cursor.png'), auto;;
 }
@@ -110,6 +111,8 @@ video {
   cursor: url('_assests/cursor.png'), auto;;
 }
 
+/* works page */
+/* movie title and year*/
 .title {
   color:blanchedalmond;
   font-family: Cutive;
@@ -125,3 +128,32 @@ video {
   text-align: center;
 }
 
+/* all pages (work.html and about.html) */
+/* Navigation bar */
+.navigation {
+  background-color: antiquewhite;
+}
+
+/* menu modal */
+.main_modal {
+  background-color: antiquewhite;
+}
+
+.menu_content {
+  padding-left: 100px;
+  padding-top: 100px;
+  align-items: center;
+}
+.menu_content a{
+  color: #1e1e2a;
+  text-decoration: none;
+}
+
+.menu_content a:hover{
+  color: #1e1e2a;
+  text-decoration: underline;
+}
+
+.navigation {
+  background-color: antiquewhite;
+}
