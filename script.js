@@ -68,7 +68,22 @@ let images = [
         title: "Princess Mononoke",
         year: "1997"
     },
-
+    {
+        path: "_assests/chihiro_main.jpeg",
+        gif: "_assests/chihiro_main.gif",
+        url: "movies/spirited_away.html",
+        alt: "chihiro and jiro sitting together",
+        title: "Spirited Away",
+        year: "2001"
+    },
+    {
+        path: "_assests/kiki_main.jpeg",
+        gif: "_assests/kiki_main.gif",
+        url: "movies/kiki.html",
+        alt: "close up of kiki laying down",
+        title: "Kiki's Delivery Service",
+        year: "1989"
+    },
     {
         path: "_assests/totoro_main.jpeg",
         gif: "_assests/totoro_main.gif",
@@ -103,7 +118,8 @@ let images = [
         alt: "Jiro and Nahoko on a hill",
         title: "The Wind Rises",
         year: "2013"
-    },
+    }
+    ,
     {
         path: "_assests/mononoke_main.jpeg",
         gif: "_assests/mononoke_main.gif",
@@ -112,6 +128,7 @@ let images = [
         title: "Princess Mononoke",
         year: "1997"
     }
+
 ];
 
 // function to update the placeholders on the work page
