@@ -99,7 +99,7 @@ video {
 }  
 
 .name:hover {
-  cursor: url('_assests/cursor.png'), auto;;
+  /* cursor: url('_assests/cursor.png'), auto;; */
 }
 
 /* name hover animation */
@@ -129,7 +129,7 @@ video {
 .link:hover > img {
   border: 4px solid antiquewhite;
   padding: 0;
-  cursor: url('_assests/cursor.png'), auto;;
+  /* cursor: url('_assests/cursor.png'), auto;; */
 }
 
 /* works page */
