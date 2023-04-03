@@ -95,12 +95,12 @@ font-weight:700;
   }
 
   .movie_name {
-    /* color:blanchedalmond; */
     color: black;
     font-family: Cutive;
     font-size: 20px;
     text-align: center;
     padding-top: 100px;
+    padding-bottom: 25px;
   }
 
   /* basic info about movie */
@@ -118,7 +118,6 @@ font-weight:700;
   /* headings of each section */
   .head {
     position: relative;
-    /* left: 16px; */
     padding-top: 80px;
     padding-bottom: 20px;
     font-size: 20px;
@@ -156,7 +155,7 @@ font-weight:700;
 
 /* gallery row space */
 .space {
-  padding-bottom : 25px;
+  padding-bottom : 20px;
 }
 
 /* gallery col space */
@@ -176,7 +175,7 @@ font-weight:700;
 
 /* big container */
 .base {
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 
 /* modal menu */

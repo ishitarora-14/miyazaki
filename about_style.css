@@ -21,7 +21,7 @@ body {
   margin: 10px 0;
 }
 
-h1 {
+.quotation {
     font-size: 80px;
     padding-bottom: -30px;
 }
@@ -175,7 +175,7 @@ h1 {
     top: 650px;
 }
 
-/* menu modal */
+/* modal menu */
 .main_modal {
   background-color: antiquewhite;
 }
@@ -197,4 +197,8 @@ h1 {
 
 .navigation {
   background-color: antiquewhite;
+}
+
+.menu_icon {
+  color: antiquewhite;
 }
