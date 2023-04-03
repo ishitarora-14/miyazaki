@@ -98,9 +98,9 @@ video {
   }
 }  
 
-.name:hover {
-  /* cursor: url('_assests/cursor.png'), auto;; */
-}
+/* .name:hover {
+  cursor: url('_assests/cursor.png'), auto;;
+} */
 
 /* name hover animation */
 .name a {
