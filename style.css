@@ -98,11 +98,6 @@ video {
   }
 }  
 
-/* video hover custom cursor for better affordance */
-.main_video:hover {
-  cursor: url('_assests/cursor.png'), auto;;
-}
-
 .name:hover {
   cursor: url('_assests/cursor.png'), auto;;
 }
@@ -130,7 +125,10 @@ video {
   transform: scaleX(1);
 }
 
-.link:hover {
+/* center image hover effect with cursor*/
+.link:hover > img {
+  border: 4px solid antiquewhite;
+  padding: 0;
   cursor: url('_assests/cursor.png'), auto;;
 }
 
