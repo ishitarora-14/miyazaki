@@ -3,77 +3,77 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The Wind Rises</title>
+    <title>Hayao Miyazaki</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="about_style.css" />
-    <script src="../script.js"></script>
+    <script src="script.js"></script>
   </head>
   
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    
+   <!-- Navigation bar fixed at top-->
+   <nav class="navbar fixed-top navigation">
+    <div class="container-fluid">
+      <a class="nav-link" href="../index.html">宮崎 駿</a>
+      <a class="navbar-brand active" href="../work.html">Hayao Miyazaki</a>
+  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    menu
+  </button>
+    </div>
+  </nav>
 
-    <!-- Navigation bar fixed at top-->
-    <nav class="navbar fixed-top navigation">
-      <div class="container-fluid">
-        <a class="nav-link" href="../index.html">宮崎 駿</a>
-        <a class="navbar-brand active" href="../work.html">Hayao Miyazaki</a>
-    <button type="button" class="button btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-        <span class="navbar-toggler-icon menu_icon"></span>
-    </button>
-      </div>
-    </nav>
-
-    <!-- Modal Menu full page-->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog modal-fullscreen">
-        <div class="modal-content navigation">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="staticBackdropLabel">Hayao Miyazaki</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body main_modal">
-            <div class="container menu_content">
+  <!-- Modal Menu full page-->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content navigation">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Hayao Miyazaki</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body main_modal">
+          <div class="container menu_content">
+            <div class="row">
+              <div class="col">
+                <h2>menu</h2>
+                <a href="../about.html">
+                  <h1>About</h1>
+                </a>
+                <a href="../work.html">
+                  <h1>Works</h1>
+                </a>
+              </div>
+              <div class="col">
+                <h2>visit</h2>
+                <h1>Events</h1>
+                <h1>Exhibitions</h1>
+              </div>
+              <div class="col">
+                <h2>Contact</h2>
+                <h1><a href="mailto:hm@studioghiblis.com">hm@studioghiblis.com</a></h1>
+                <h1><a href="tel:0000000000">0000000000</a></h1>
+              </div>
               <div class="row">
-                <div class="col">
-                  <h2>menu</h2>
-                  <a href="../about.html">
-                    <h1>About</h1>
-                  </a>
-                  <a href="../work.html">
-                    <h1>Works</h1>
-                  </a>
-                </div>
-                <div class="col">
-                  <h2>visit</h2>
-                  <h1>Events</h1>
-                  <h1>Exhibitions</h1>
-                </div>
-                <div class="col">
-                  <h2>Contact</h2>
-                  <h1><a href="mailto:hm@studioghiblis.com">hm@studioghiblis.com</a></h1>
-                  <h1><a href="tel:0000000000">0000000000</a></h1>
-                </div>
-                <div class="row">
-                  <div class="col-7 offset-md-7">
-                    <img src="../_assests/t.gif">
-                  </div>
+                <div class="col-7 offset-md-7">
+                  <img src="../_assests/t.gif">
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div> 
+    </div>
+  </div>
 
     <!-- Main content -->
     <!-- quote and image of miyazaki -->
     <div class="container main">
         <div class="qbox row">
-            <div class="quote col">
+            <div class="quote col-5">
                 <h1 class="quotation">“</h1>
                 <p>I don’t think of myself as a director. I think of myself as a storyteller. I’m not interested in directing. I’m interested in telling stories.</p>
             </div>
-            <div class="image col">
+            <div class="image col-7">
                 <img class="HM" src="_assests/miyazaki.png" alt="Hayao Miyazaki">
             </div>
             <div class="scroll col-12">
