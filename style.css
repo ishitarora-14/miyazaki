@@ -107,6 +107,29 @@ video {
   cursor: url('_assests/cursor.png'), auto;;
 }
 
+/* name hover animation */
+.name a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.name a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+.name a:hover::before {
+  transform: scaleX(1);
+}
+
 .link:hover {
   cursor: url('_assests/cursor.png'), auto;;
 }
