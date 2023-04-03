@@ -171,6 +171,8 @@ font-weight:700;
 
 .move_next:hover{
   cursor: url('../_assests/cursor.png'), auto;
+  border: 2px solid rgb(15, 59, 30);
+  transition: 0.2s ease-in;
 }
 
 /* big container */
