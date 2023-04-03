@@ -159,6 +159,11 @@ font-weight:700;
   padding-bottom : 25px;
 }
 
+/* gallery col space */
+.small_space {
+  padding-bottom : 10px;
+}
+
 /* see more section */
 .move_next {
   height: 200px;
@@ -196,4 +201,8 @@ font-weight:700;
 
 .navigation {
   background-color: antiquewhite;
+}
+
+.menu_icon {
+  color: antiquewhite;
 }
