@@ -1,5 +1,5 @@
 /* importing external fonts */
-@import url("https://fonts.googleapis.com/css2?family=Cutive&family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cutive&family=Kanit&display=swap&family=Amaranth");
 
 body {
     height: 100vh;
@@ -56,7 +56,7 @@ margin: auto;
 }
 
 .text h2 {
-font-family: 'Cutive', serif;
+font-family: 'Amaranth', sans-serif;
 text-align: center;
 color:aliceblue;
 text-transform: uppercase;
@@ -73,7 +73,7 @@ font-weight:700;
   font-size: 22px;
 }
 }
-  
+
 /* all information of movie */
   .content {
     position: relative;
