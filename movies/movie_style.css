@@ -1,5 +1,5 @@
 /* importing external fonts */
-@import url("https://fonts.googleapis.com/css2?family=Amaranth&family=Cutive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cutive&family=Kanit&display=swap");
 
 body {
     height: 100vh;
@@ -56,6 +56,7 @@ margin: auto;
 }
 
 .text h2 {
+font-family: 'Cutive', serif;
 text-align: center;
 color:aliceblue;
 text-transform: uppercase;
@@ -117,6 +118,7 @@ font-weight:700;
   
   /* headings of each section */
   .head {
+    font-family: 'Kanit', sans-serif;
     position: relative;
     padding-top: 80px;
     padding-bottom: 20px;
